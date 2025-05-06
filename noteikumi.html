@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <title>Kā spēlēt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    .tile {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      margin: 2px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      border: 2px solid #ccc;
+    }
+    .gray {
+      background-color: #999;
+      color: white;
+    }
+    h2 {
+      color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+  <h2>Uzmini vārdu — Noteikumi</h2>
+  <p>Tev ir jāuzmin piecu burtu vārds, kas ir kāds <strong>mūzikas instruments</strong>.</p>
+  <p>Tev ir <strong>8 mēģinājumi</strong>, lai uzminētu pareizo vārdu.</p>
+  <p>Pēc katra minējuma zem ievades lauka tiks parādīti burti, kuri <strong>nav</strong> pareizajā vārdā.</p>
+
+  <h3>Piemērs:</h3>
+  <div>
+    <div class="tile">G</div>
+    <div class="tile">I</div>
+    <div class="tile">T</div>
+    <div class="tile">Ā</div>
+    <div class="tile">R</div>
+    <div class="tile">A</div>
+  </div>
+  <p>Ja burts nav īstajā vārdā, tas parādīsies zemāk kā “Nepareizs burts”.</p>
+
+  <div>
+    <p>Ja uzmini burta atrašanos vai pareizību, tas šajā versijā <strong>netiek atsevišķi iezīmēts</strong> — spēles mērķis ir izslēgt nederīgos burtus un atminēt vārdu.</p>
+  </div>
+
+  <p><em>Padoms:</em> Centies sākt ar biežāk lietotiem burtiem un pēc tam izmanto jau zināmos "pareizos" burtus, lai veidotu jaunus vārdus.</p>
+
+  <button onclick="window.close()">Aizvērt šo ziņojumu</button>
+</body>
+</html>

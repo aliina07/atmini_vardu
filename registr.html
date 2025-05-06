@@ -7,15 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="form-container">
-        <h2>Reģistrācija</h2>
-        <form>
+    <div class="top-bar">
+        <a class="noteikumi" onclick="document.location='noteikumi.html'">Noteikumi</a>
+    </div>
+    <div class="wrapper">
+        <h1>Reģistrācija</h1>
+        <div class = "content">
+        <div class="inputs_register">
             <input type="text" class="input-field" placeholder="Vārds" required>
             <input type="number" class="input-field" placeholder="Vecums" required>
+            <input type="text" class="input-field" placeholder="Segvārds" required>
             <input type="password" class="input-field" placeholder="Parole" required>
-            <button type="submit" class="submit-btn">Reģistrēties</button>
-        </form>
-        <a href="#" class="login-link">Ielogoties</a>
+            <button class="button disabled" onclick="document.location='start.html'">Reģistrēties</button>
+            <button class="button disabled"onclick="document.location='start.html'">Ielogoties</button>
+        </div>
+        
+        </div>
     </div>
 </body>
 </html>
